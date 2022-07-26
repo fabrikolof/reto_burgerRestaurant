@@ -1,1 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2022-07-26T17:39:03.509Z" agent="5.0 (Windows)" version="20.2.0" etag="0ClRFzPE9u3mfPtqk_Qw" type="github"><diagram id="0bSmpJjXT4QHC9Z0yinY">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-26T17:50:15.690Z" agent="5.0 (Windows)" etag="s8Xl1HqEvDdB-oahkOeU" version="20.2.0" type="github" pages="3">
+  <diagram id="0bSmpJjXT4QHC9Z0yinY" name="Análisis">
+    <mxGraphModel dx="1422" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-irWWOzhihdXzqLK1Ein-1" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Domain: Vender comida.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="210" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-irWWOzhihdXzqLK1Ein-2" value="" style="ellipse;whiteSpace=wrap;html=1;fontSize=30;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="300" width="450" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="-irWWOzhihdXzqLK1Ein-3" value="" style="ellipse;whiteSpace=wrap;html=1;fontSize=30;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="300" width="450" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="-irWWOzhihdXzqLK1Ein-4" value="" style="ellipse;whiteSpace=wrap;html=1;fontSize=30;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="680" width="450" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="-irWWOzhihdXzqLK1Ein-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Food&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="210" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-irWWOzhihdXzqLK1Ein-6" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;span class=&quot;VIiyi&quot; lang=&quot;en&quot;&gt;&lt;span data-number-of-phrases=&quot;1&quot; data-phrase-index=&quot;0&quot; data-language-to-translate-into=&quot;es&quot; data-language-for-alternatives=&quot;en&quot; class=&quot;JLqJ4b ChMk0b&quot;&gt;&lt;span class=&quot;Q4iAWc&quot;&gt;customer service&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="120" y="700" width="295" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-irWWOzhihdXzqLK1Ein-8" value="" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="180" y="405" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-irWWOzhihdXzqLK1Ein-9" value="" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="140" y="780" width="145" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-irWWOzhihdXzqLK1Ein-10" value="" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="625" y="410" width="175" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="-irWWOzhihdXzqLK1Ein-11" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Marketing&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="680" y="360" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-irWWOzhihdXzqLK1Ein-13" value="" style="ellipse;whiteSpace=wrap;html=1;fontSize=30;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="680" width="450" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="-irWWOzhihdXzqLK1Ein-15" value="" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="640" y="770" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="-irWWOzhihdXzqLK1Ein-19" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Marketing&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="735" y="720" width="120" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="92EMf9NmiPNLdvf561jD" name="Modelo de dominio">
+    <mxGraphModel dx="1422" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ce15cj5fZXZKw39M88a2" name="Eventos de dominios">
+    <mxGraphModel dx="1422" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
