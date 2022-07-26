@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-07-26T18:26:06.703Z" agent="5.0 (Windows)" etag="ztr0Z9jPujngpKBBWUvL" version="20.2.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-26T18:33:16.334Z" agent="5.0 (Windows)" etag="2RZt56BbzJ0vTI65Kote" version="20.2.0" type="github" pages="3">
   <diagram id="0bSmpJjXT4QHC9Z0yinY" name="Análisis">
     <mxGraphModel dx="2031" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-irWWOzhihdXzqLK1Ein-56" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="70" y="340" width="890" height="650" as="geometry" />
+        </mxCell>
         <mxCell id="-irWWOzhihdXzqLK1Ein-37" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="80" y="1040" width="560" height="390" as="geometry" />
         </mxCell>
@@ -88,13 +91,13 @@
           <mxGeometry x="617.5" y="800" width="210" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-irWWOzhihdXzqLK1Ein-21" value="Stock" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="247.5" y="1070" width="120" height="90" as="geometry" />
+          <mxGeometry x="510" y="1130" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="-irWWOzhihdXzqLK1Ein-22" value="cook(chef)" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="100" y="1080" width="120" height="90" as="geometry" />
+          <mxGeometry x="365" y="1070" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="-irWWOzhihdXzqLK1Ein-24" value="Recipe" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="367.5" y="1080" width="120" height="90" as="geometry" />
+          <mxGeometry x="130" y="1190" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="-irWWOzhihdXzqLK1Ein-27" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;fontSize=20;endArrow=none;endFill=0;" edge="1" parent="1" source="-irWWOzhihdXzqLK1Ein-25" target="-irWWOzhihdXzqLK1Ein-8">
           <mxGeometry relative="1" as="geometry" />
@@ -128,6 +131,33 @@
         </mxCell>
         <mxCell id="-irWWOzhihdXzqLK1Ein-45" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="715" y="1520" width="560" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="-irWWOzhihdXzqLK1Ein-46" value="Waiter" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="755" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-irWWOzhihdXzqLK1Ein-47" value="Cashier" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-irWWOzhihdXzqLK1Ein-48" value="Table" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-irWWOzhihdXzqLK1Ein-49" value="Web Site" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="1060" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-irWWOzhihdXzqLK1Ein-50" value="Social Manager" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="1085" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-irWWOzhihdXzqLK1Ein-51" value="Room" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-irWWOzhihdXzqLK1Ein-52" value="Chair" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-irWWOzhihdXzqLK1Ein-54" value="Burger" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="192.5" y="1085" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-irWWOzhihdXzqLK1Ein-55" value="Vegetarian burger" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1320" width="120" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
