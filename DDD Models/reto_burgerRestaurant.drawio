@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-27T19:56:29.966Z" agent="5.0 (Windows)" etag="yGUT_fSXojU_JK5p9_jB" version="20.2.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-27T20:56:27.067Z" agent="5.0 (Windows)" etag="AuxmJdMGLuP_lj3HzLTC" version="20.2.0" type="github" pages="3">
   <diagram id="0bSmpJjXT4QHC9Z0yinY" name="Análisis">
-    <mxGraphModel dx="3038" dy="1218" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3220" dy="1320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -528,6 +528,9 @@
         </mxCell>
         <mxCell id="DAX1vT3-P7WtXW0Bt97T-131" value="Mesa" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-147.49000000000012" y="5190" width="140.62" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="DAX1vT3-P7WtXW0Bt97T-139" value="BigPicture" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="4100" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
