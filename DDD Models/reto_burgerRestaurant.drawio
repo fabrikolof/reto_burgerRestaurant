@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-27T16:00:17.774Z" agent="5.0 (Windows)" etag="oGpRiR0dqsp362G27vwM" version="20.2.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-27T16:01:41.956Z" agent="5.0 (Windows)" etag="zohytUEr_vJ-tAqmx3Eq" version="20.2.0" type="github" pages="3">
   <diagram id="0bSmpJjXT4QHC9Z0yinY" name="Análisis">
     <mxGraphModel dx="1831" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -544,10 +544,10 @@
         <mxCell id="DAX1vT3-P7WtXW0Bt97T-61" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Presencia Online&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=30;" vertex="1" parent="1">
           <mxGeometry x="-35" y="4580" width="165" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DAX1vT3-P7WtXW0Bt97T-62" value="generic" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="83.5" y="4500" width="85" height="60" as="geometry" />
+        <mxCell id="DAX1vT3-P7WtXW0Bt97T-62" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Redes Sociales &lt;/font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;[generic]&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="77.5" y="4490" width="85" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DAX1vT3-P7WtXW0Bt97T-63" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Redes Sociales [support]&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="DAX1vT3-P7WtXW0Bt97T-63" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Publicidad&lt;br&gt;[support]&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="-51.870000000000005" y="4510" width="121.87" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DAX1vT3-P7WtXW0Bt97T-64" value="support" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
