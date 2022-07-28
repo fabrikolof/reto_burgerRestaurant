@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T19:16:19.175Z" agent="5.0 (Windows)" etag="i0Cz0Tlw2ah0m6XtYytI" version="20.2.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-28T19:20:47.810Z" agent="5.0 (Windows)" etag="nrwkET9cRJ8vrdF1nAnx" version="20.2.0" type="github" pages="3">
   <diagram id="0bSmpJjXT4QHC9Z0yinY" name="Análisis">
     <mxGraphModel dx="2424" dy="-2399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -966,7 +966,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="92EMf9NmiPNLdvf561jD" name="Modelo de dominio">
-    <mxGraphModel dx="2545" dy="2071" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3299" dy="2502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3146,7 +3146,7 @@
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NFaeRRzQVhkB4Ni7E1Vw-421" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontSize=20;strokeWidth=1;" vertex="1" parent="NFaeRRzQVhkB4Ni7E1Vw-419">
+        <mxCell id="NFaeRRzQVhkB4Ni7E1Vw-421" value="Set&lt;Assistance&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontSize=20;strokeWidth=1;" vertex="1" parent="NFaeRRzQVhkB4Ni7E1Vw-419">
           <mxGeometry x="60" width="280" height="30" as="geometry">
             <mxRectangle width="280" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3159,7 +3159,7 @@
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NFaeRRzQVhkB4Ni7E1Vw-424" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontSize=20;strokeWidth=1;" vertex="1" parent="NFaeRRzQVhkB4Ni7E1Vw-422">
+        <mxCell id="NFaeRRzQVhkB4Ni7E1Vw-424" value="Set&lt;Cook&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontSize=20;strokeWidth=1;" vertex="1" parent="NFaeRRzQVhkB4Ni7E1Vw-422">
           <mxGeometry x="60" width="280" height="30" as="geometry">
             <mxRectangle width="280" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -3172,7 +3172,7 @@
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NFaeRRzQVhkB4Ni7E1Vw-427" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontSize=20;strokeWidth=1;" vertex="1" parent="NFaeRRzQVhkB4Ni7E1Vw-425">
+        <mxCell id="NFaeRRzQVhkB4Ni7E1Vw-427" value="Set&lt;Dish&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontSize=20;strokeWidth=1;" vertex="1" parent="NFaeRRzQVhkB4Ni7E1Vw-425">
           <mxGeometry x="60" width="280" height="30" as="geometry">
             <mxRectangle width="280" height="30" as="alternateBounds" />
           </mxGeometry>
