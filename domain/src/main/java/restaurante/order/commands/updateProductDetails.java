@@ -3,8 +3,6 @@ package restaurante.order.commands;
 import co.com.sofka.domain.generic.Command;
 import restaurante.order.values.Details;
 import restaurante.order.values.Order_ID;
-import restaurante.order.values.Price;
-import restaurante.order.values.Quantity;
 
 public class updateProductDetails extends Command {
     private Order_ID order_id;

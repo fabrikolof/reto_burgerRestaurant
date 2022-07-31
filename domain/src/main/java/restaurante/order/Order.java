@@ -2,15 +2,14 @@ package restaurante.order;
 
 import co.com.sofka.domain.generic.AggregateEvent;
 import co.com.sofka.domain.generic.DomainEvent;
-import restaurante.chef.events.ChefCreatedMessage;
 import restaurante.chef.values.*;
+import restaurante.order.values.Details;
+import restaurante.order.values.Price;
 import restaurante.order.entities.Bill;
 import restaurante.order.entities.Food;
 import restaurante.order.entities.Product;
 import restaurante.order.events.*;
 import restaurante.order.values.*;
-import restaurante.order.values.Details;
-import restaurante.order.values.Price;
 
 import java.util.List;
 import java.util.Optional;

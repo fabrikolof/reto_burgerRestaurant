@@ -10,8 +10,6 @@ import restaurante.order.entities.Bill;
 import restaurante.order.events.OrderCreated;
 import restaurante.order.values.*;
 
-import java.time.DayOfWeek;
-
 public class CreateOrderUseCaseTest {
 
     private CreateOrderUseCase useCase;

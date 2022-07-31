@@ -1,7 +1,6 @@
 package restaurante.order.commands;
 
 import co.com.sofka.domain.generic.Command;
-import restaurante.order.values.Amount;
 import restaurante.order.values.Bill_ID;
 import restaurante.order.values.Details;
 import restaurante.order.values.Order_ID;

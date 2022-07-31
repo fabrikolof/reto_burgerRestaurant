@@ -1,7 +1,9 @@
 package restaurante.order.commands;
 
 import co.com.sofka.domain.generic.Command;
-import restaurante.order.values.*;
+import restaurante.order.values.Food_ID;
+import restaurante.order.values.Order_ID;
+import restaurante.order.values.Quantity;
 
 public class ChangeFoodQuantity extends Command {
     private Order_ID order_id;

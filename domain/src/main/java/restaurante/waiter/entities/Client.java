@@ -29,7 +29,4 @@ public class Client extends Entity<Client_ID> {
     public void updatePhoneNumber(PhoneNumber phoneNumber){
         this.phoneNumber = phoneNumber;
     }
-    public void orderSomehing(){
-        //Something
-    }
 }

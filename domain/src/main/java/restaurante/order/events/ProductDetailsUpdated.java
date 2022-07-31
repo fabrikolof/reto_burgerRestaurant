@@ -2,7 +2,6 @@ package restaurante.order.events;
 
 import co.com.sofka.domain.generic.DomainEvent;
 import restaurante.order.values.Details;
-import restaurante.order.values.Price;
 import restaurante.order.values.Product_ID;
 
 public class ProductDetailsUpdated extends DomainEvent {
