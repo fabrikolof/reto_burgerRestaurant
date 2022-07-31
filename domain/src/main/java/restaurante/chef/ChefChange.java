@@ -64,7 +64,5 @@ public class ChefChange extends EventChange {
             Dish dish = chef.findDishById(event.getDish_id()).orElseThrow();
             dish.updatePrice(event.getPrice());
         });
-        //Finders chef.findAssitanceById(assistance_id) x3
-
     }
 }

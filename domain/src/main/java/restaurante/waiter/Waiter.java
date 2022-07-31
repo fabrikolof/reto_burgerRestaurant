@@ -2,7 +2,6 @@ package restaurante.waiter;
 
 import co.com.sofka.domain.generic.AggregateEvent;
 import co.com.sofka.domain.generic.DomainEvent;
-import restaurante.waiter.commands.updateClientName;
 import restaurante.waiter.events.*;
 import restaurante.waiter.entities.Client;
 import restaurante.waiter.entities.Note;
@@ -95,6 +94,6 @@ public class Waiter extends AggregateEvent<Waiter_ID> {
     public void updateWaiterPhoneNumber(Waiter_ID waiter_id, PhoneNumber phoneNumber){
         appendChange(new WaiterPhoneNumberUpdated(waiter_id, phoneNumber)).apply();
     }
-
+    //TRIGGER EVENTS
 
 }

@@ -28,7 +28,7 @@ public class CreateNote extends Command {
         return note_id;
     }
 
-    public CreateNote(Waiter_ID waiter_id, Note_ID note_id, Note_ID note_id1, Clarifications clarifications, Products products) {
+    public CreateNote(Waiter_ID waiter_id, Note_ID note_id, Clarifications clarifications, Products products) {
         this.waiter_id = waiter_id;
         this.note_id = note_id;
         this.clarifications = clarifications;

@@ -3,7 +3,6 @@ package restaurante.order;
 import co.com.sofka.business.generic.UseCase;
 import co.com.sofka.business.support.RequestCommand;
 import co.com.sofka.business.support.ResponseEvents;
-import restaurante.chef.Chef;
 import restaurante.order.commands.CreateOrder;
 
 public class CreateOrderUseCase extends UseCase<RequestCommand<CreateOrder>, ResponseEvents> {

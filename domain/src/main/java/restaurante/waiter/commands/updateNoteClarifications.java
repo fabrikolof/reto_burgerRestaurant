@@ -9,15 +9,14 @@ public class updateNoteClarifications extends Command {
     //In Notes we found the clarifications of the clients
     private final Waiter_ID waiter_id;
     private final Note_ID note_id;
-    private final Clarifications clarificatio
-ns;
+    private final Clarifications clarifications;
 
     public Waiter_ID getWaiter_id() {
         return waiter_id;
     }
 
     public Clarifications getClarificatio() {
-        return clarificatio;
+        return clarifications;
     }
 
     public updateNoteClarifications(Waiter_ID waiter_id, Note_ID note_id, Clarifications clarifications) {

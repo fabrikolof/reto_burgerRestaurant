@@ -1,3 +1,2 @@
 ﻿# reto_burgerRestaurant
-
-![](DDD Models/BigPicture.png)
+![alt text](DDD Models/BigPicture.png)

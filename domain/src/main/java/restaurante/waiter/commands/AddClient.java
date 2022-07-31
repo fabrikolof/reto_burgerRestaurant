@@ -12,9 +12,9 @@ public class AddClient extends Command {
     private final Name name;
     private final PhoneNumber phoneNumber;
 
-    public AddClient(Waiter_ID waiter_id, Client_ID trainerID, Name name, PhoneNumber phoneNumber) {
+    public AddClient(Waiter_ID waiter_id, Client_ID client_id, Name name, PhoneNumber phoneNumber) {
         this.waiter_id = waiter_id;
-        this.client_id = trainerID;
+        this.client_id = client_id;
         this.name = name;
         this.phoneNumber = phoneNumber;
     }
