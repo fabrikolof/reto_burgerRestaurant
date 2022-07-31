@@ -6,16 +6,13 @@ import java.util.Objects;
 
 public class Name implements ValueObject<String>{
     public final String value;
-
     public Name(String value) {
         this.value = Objects.requireNonNull(value);
     }
-
     @Override
     public String value() {
         return this.value;
     }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -23,7 +20,6 @@ public class Name implements ValueObject<String>{
         Name name = (Name) o;
         return Objects.equals(value, name.value);
     }
-
     @Override
     public int hashCode() {
         return Objects.hash(value);
