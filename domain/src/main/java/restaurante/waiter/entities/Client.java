@@ -17,8 +17,8 @@ public class Client extends Entity<Client_ID> {
         return phoneNumber;
     }
 
-    public Client(Client_ID entityId, Name name, PhoneNumber phoneNumber) {
-        super(entityId);
+    public Client(Client_ID client_id, Name name, PhoneNumber phoneNumber) {
+        super(client_id);
         this.name = name;
         this.phoneNumber = phoneNumber;
     }

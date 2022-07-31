@@ -1,11 +1,13 @@
 package restaurante.waiter;
 
 import co.com.sofka.domain.generic.AggregateEvent;
+import restaurante.waiter.events.waiterNameUpdated;
 import restaurante.waiter.entities.Client;
 import restaurante.waiter.entities.Note;
 import restaurante.waiter.entities.Table;
 import restaurante.waiter.values.*;
 
+import java.util.Optional;
 import java.util.Set;
 
 public class Waiter extends AggregateEvent<Waiter_ID> {
@@ -43,9 +45,15 @@ public class Waiter extends AggregateEvent<Waiter_ID> {
     public Note getNote() {
         return note;
     }
+    //    findById
+    public Optional<Client> findClientById(Client_ID client_id) {
+        return this.clientSet.stream().filter(c -> c.identity().equals(client_id)).findFirst();
+    }
 
     //Method
-    public void updateWaiterName(){}
+    public void updateWaiterName(Waiter_ID waiter_id, Name name) {
+        appendChange(new waiterNameUpdated(waiter_id, name)).apply();
+    }
     public void updateWaiterPhoneNumber(){}
     public void updateTable(){}
     public void addClient(){}

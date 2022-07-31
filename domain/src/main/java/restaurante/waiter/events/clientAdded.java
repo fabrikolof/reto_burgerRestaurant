@@ -1,19 +1,17 @@
 package restaurante.waiter.events;
 
 import co.com.sofka.domain.generic.DomainEvent;
+import restaurante.waiter.values.Client_ID;
 import restaurante.waiter.values.Name;
 import restaurante.waiter.values.PhoneNumber;
 
 import java.util.UUID;
 
 public class clientAdded extends DomainEvent {
-    private final Name name;
-    private final PhoneNumber phoneNumber;
+    private final Client_ID client_id;
 
-    public clientAdded(Name name, PhoneNumber phoneNumber) {
-        super("restaurante.waiter.clientadded");
-        this.name = name;
-        this.phoneNumber = phoneNumber;
+    public Client_ID getClient_id() {
+        return client_id;
     }
 
     public Name getName() {
@@ -23,4 +21,16 @@ public class clientAdded extends DomainEvent {
     public PhoneNumber getPhoneNumber() {
         return phoneNumber;
     }
+
+    public clientAdded(Client_ID client_id, Name name, PhoneNumber phoneNumber) {
+        super("restaurante.waiter.clientadded");
+        this.client_id = client_id;
+        this.name = name;
+        this.phoneNumber = phoneNumber;
+    }
+
+    private final Name name;
+    private final PhoneNumber phoneNumber;
+
+
 }

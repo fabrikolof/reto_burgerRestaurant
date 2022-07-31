@@ -2,21 +2,29 @@ package restaurante.waiter.commands;
 
 import co.com.sofka.domain.generic.Command;
 import restaurante.waiter.values.Clarifications;
+import restaurante.waiter.values.Note_ID;
 import restaurante.waiter.values.Products;
 
 public class createNote extends Command {
-    protected Clarifications clarifications;
-    protected Products products;
+    private Note_ID note_id;
+    private Clarifications clarifications;
+    private Products products;
 
-    public createNote(Clarifications clarifications, Products products) {
-        this.clarifications = clarifications;
-        this.products = products;
+    public Note_ID getNote_id() {
+        return note_id;
     }
+
     public Clarifications getClarifications() {
         return clarifications;
     }
 
     public Products getProducts() {
         return products;
+    }
+
+    public createNote(Note_ID note_id, Clarifications clarifications, Products products) {
+        this.note_id = note_id;
+        this.clarifications = clarifications;
+        this.products = products;
     }
 }
