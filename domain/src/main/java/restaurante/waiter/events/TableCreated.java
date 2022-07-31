@@ -5,8 +5,17 @@ import restaurante.waiter.values.Capacity;
 import restaurante.waiter.values.Menu;
 import restaurante.waiter.values.Table_ID;
 
-public class tableUpdated extends DomainEvent {
-    private final Table_ID table_id;
+public class TableCreated extends DomainEvent {
+    private Table_ID table_id;
+    private Menu menu;
+    private Capacity capacity;
+
+    public TableCreated(Table_ID table_id, Menu menu, Capacity capacity) {
+        super("restaurante.waiter.tablecrated");
+        this.table_id = table_id;
+        this.menu = menu;
+        this.capacity = capacity;
+    }
 
     public Table_ID getTable_id() {
         return table_id;
@@ -19,15 +28,4 @@ public class tableUpdated extends DomainEvent {
     public Capacity getCapacity() {
         return capacity;
     }
-
-    public tableUpdated(Table_ID table_id, Menu menu, Capacity capacity) {
-        super("restaurante.waiter.tableupdated");
-        this.table_id = table_id;
-        this.menu = menu;
-        this.capacity = capacity;
-    }
-
-    private final Menu menu;
-    private final Capacity capacity;
-
 }

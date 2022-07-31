@@ -5,10 +5,10 @@ import restaurante.waiter.values.Client_ID;
 import restaurante.waiter.values.Name;
 import restaurante.waiter.values.PhoneNumber;
 
-import java.util.UUID;
-
 public class clientAdded extends DomainEvent {
     private final Client_ID client_id;
+    private final Name name;
+    private final PhoneNumber phoneNumber;
 
     public Client_ID getClient_id() {
         return client_id;
@@ -29,8 +29,6 @@ public class clientAdded extends DomainEvent {
         this.phoneNumber = phoneNumber;
     }
 
-    private final Name name;
-    private final PhoneNumber phoneNumber;
 
 
 }

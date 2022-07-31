@@ -22,7 +22,7 @@ public class Chef extends AggregateEvent<Chef_ID> {
 
     public Chef(Chef_ID chef_ID, Name name, PhoneNumber phoneNumber) {
         super(chef_ID);
-        appendChange(new ChefCreated(chef_ID, name, phoneNumber)).apply();//commands
+        appendChange(new ChefCreated(chef_ID, name, phoneNumber)).apply();
     }
     Chef(Chef_ID chef_ID) {
         super(chef_ID);
