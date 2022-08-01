@@ -8,7 +8,6 @@ import restaurante.chef.values.Chef_ID;
 import restaurante.order.events.OrderCreated;
 
 public class NotifyOrderCreatedUseCase extends UseCase<TriggeredEvent<OrderCreated>, ResponseEvents> {
-
     @Override
     public void executeUseCase(TriggeredEvent<OrderCreated> orderCreatedTriggeredEvent) {
         var event = orderCreatedTriggeredEvent.getDomainEvent();
