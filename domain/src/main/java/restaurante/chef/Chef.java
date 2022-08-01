@@ -70,12 +70,16 @@ public class Chef extends AggregateEvent<Chef_ID> {
         Assistance_ID assistance_id = new Assistance_ID();
         appendChange(new AssistanceCreated(assistance_id, name, phoneNumber)).apply();
     }
+    public void removeAssistance(Assistance_ID assistance_id) {
+        appendChange(new AssistanceRemoved(assistance_id)).apply();
+    }
     public void updateAssitanceName(Assistance_ID assistance_id, Name name) {
         appendChange(new AssitanceNameUpdated(assistance_id, name)).apply();
     }
     public void updateAssitancePhoneNumber(Assistance_ID assistance_id, PhoneNumber phoneNumber) {
         appendChange(new AssistancePhoneNumberUpdated(assistance_id, phoneNumber)).apply();
     }
+
     //-----------------COOK
     public void addCook(Name name, PhoneNumber phoneNumber) {
         Cook_ID cook_id = new Cook_ID();

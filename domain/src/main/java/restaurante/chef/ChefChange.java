@@ -1,6 +1,7 @@
 package restaurante.chef;
 
 import co.com.sofka.domain.generic.EventChange;
+import restaurante.chef.commands.RemoveAssistance;
 import restaurante.chef.entities.Assitance;
 import restaurante.chef.entities.Cook;
 import restaurante.chef.entities.Dish;
@@ -37,6 +38,9 @@ public class ChefChange extends EventChange {
         apply((AssistancePhoneNumberUpdated event) -> {
             Assitance assistance = chef.findAssitanceById(event.getAssistance_ID()).orElseThrow();
             assistance.updatePhoneNumber(event.getPhoneNumber());
+        });
+        apply((AssistanceRemoved event) -> {
+            chef.assitanceSet.removeIf(assistance -> assistance.identity().equals(event.getAssistance_id()));
         });
         //Cook events
         apply((AddedCook event) -> {
